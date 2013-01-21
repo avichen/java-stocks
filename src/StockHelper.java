@@ -10,7 +10,6 @@ public class StockHelper {
 
 	static String symbol = "";
 	static double price = 0.0; 
-	static double change = 0.0; 
 	static int volume = 0; 
 	static double pe = 0.0;
 	static double eps = 0.0; 
@@ -45,7 +44,6 @@ public class StockHelper {
 				price = Double.parseDouble(stockinfo[0]);  
 			}  
 			
-			//change = Double.parseDouble(stockinfo[1]); 
 			
 			if (Pattern.matches("N/A", stockinfo[2])) {  
 				volume = 0; 	
@@ -101,7 +99,7 @@ public class StockHelper {
 				marketcap = Double.parseDouble(stockinfo[10]);   
 			} 
 		
-			stock = new Stock(symbol, price, change, volume, pe, eps, week52low, week52high, daylow, dayhigh, movingav50day, marketcap);
+			stock = new Stock(symbol, price, volume, pe, eps, week52low, week52high, daylow, dayhigh, movingav50day, marketcap);
 		
 		} catch (IOException ex) { 
 		

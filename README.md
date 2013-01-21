@@ -21,7 +21,6 @@ Yahoo Finance allows stock data to be downloaded in CSV format. All we have to d
 The library currently supports the following methods: 
 
     getPrice(); 
-    getChange();
     getVolume(); 
     getPe(); 
     getEps(); 

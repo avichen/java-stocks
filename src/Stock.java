@@ -2,8 +2,7 @@
 public class Stock {
 
 	private String symbol; 
-	private double price; 
-	private double change; 
+	private double price;  
 	private int volume; 
 	private double pe; 
 	private double eps;  
@@ -25,12 +24,11 @@ public class Stock {
 		
 	}  
 	
-	public Stock(String symbol, double price, double change, int volume, double pe, double eps, double week52low, 
+	public Stock(String symbol, double price, int volume, double pe, double eps, double week52low, 
 					double week52high, double daylow, double dayhigh, double movingav50day, double marketcap) { 
 		
 		this.symbol = symbol; 
 		this.price = price; 
-		this.change = change; 
 		this.volume = volume; 
 		this.pe = pe; 
 		this.eps = eps; 
@@ -58,18 +56,6 @@ public class Stock {
 	public void setPrice(double price) { 
 		
 		this.price = price; 
-		
-	} 
-	
-	public double getChange() { 
-		
-		return this.change;
-		
-	} 
-	
-	public void setChange(double change) { 
-		
-		this.change = change;
 		
 	}  
 	

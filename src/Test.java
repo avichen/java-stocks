@@ -11,7 +11,6 @@ public class Test {
 		facebook = sh.getStock("FB"); 
 		
 		System.out.println(facebook.getPrice());  
-		//System.out.println(facebook.getChange());
 		System.out.println(facebook.getVolume()); 
 		System.out.println(facebook.getPe()); 
 		System.out.println(facebook.getEps()); 
