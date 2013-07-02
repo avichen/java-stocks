@@ -37,11 +37,17 @@ To test the library, run StockTest.java as a jUnit Test.
 ## Coming Soon 
 
 * Retrieve Mutliple Stocks at Once
-* More Methods
+* More Methods 
+
+## Contributors 
+
+Special Thanks To: 
+
+* [erbycfisher](https://github.com/erbycfischer) 
     
 ## License 
 
 * No Warranty Expressed or Implied. Sofware is as is. 
-* [MIT License](http://http://opensource.org/licenses/mit-license.php) 
+* [MIT License](http://opensource.org/licenses/mit-license.php) 
 
 
