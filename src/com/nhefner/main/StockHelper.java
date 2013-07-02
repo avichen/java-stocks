@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
 public class StockHelper {  
@@ -108,7 +110,8 @@ public class StockHelper {
 			stock = new Stock(symbol, price, volume, pe, eps, week52low, week52high, daylow, dayhigh, movingav50day, marketcap);
 			
 		} catch (IOException e) {
-			e.printStackTrace();
+			Logger log = Logger.getLogger(StockHelper.class.getName()); 
+			log.log(Level.SEVERE, e.toString(), e);
 		}
 		
 		return stock;
