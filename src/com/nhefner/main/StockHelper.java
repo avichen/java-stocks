@@ -11,17 +11,17 @@ import java.util.regex.Pattern;
 
 public class StockHelper {  
 	
-	static String symbol = ""; 
-	static double price = 0.0; 
-	static int volume = 0; 
-	static double pe = 0.0;
-	static double eps = 0.0; 
-	static double week52low = 0.0; 
-	static double week52high = 0.0; 
-	static double daylow = 0.0; 
-	static double dayhigh = 0.0; 
-	static double movingav50day = 0.0; 
-	static double marketcap = 0.0; 
+	String symbol = ""; 
+	double price = 0.0; 
+	int volume = 0; 
+	double pe = 0.0;
+	double eps = 0.0; 
+	double week52low = 0.0; 
+	double week52high = 0.0; 
+	double daylow = 0.0; 
+	double dayhigh = 0.0; 
+	double movingav50day = 0.0; 
+	double marketcap = 0.0; 
 	
 	/*
 	* Returns a Stock Object that contains info about a specified stock.
