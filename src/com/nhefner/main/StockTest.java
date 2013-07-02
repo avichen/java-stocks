@@ -1,17 +1,13 @@
-package com.nhefner.tests;
+package com.nhefner.main;
 
 import org.junit.Test;
-
-import com.nhefner.main.Stock;
-import com.nhefner.main.StockHelper;
 
 public class StockTest { 
 	
 	@Test
 	public void testStock() { 
 		
-		StockHelper sh = new StockHelper(); 
-		Stock facebook = sh.getStock("FB");
+		Stock facebook = StockHelper.getStock("FB");
 		System.out.println("Price: " + facebook.getPrice());
 		System.out.println("Volume: " + facebook.getVolume()); 
 		System.out.println("P/E: " + facebook.getPe());
