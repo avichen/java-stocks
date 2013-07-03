@@ -17,16 +17,18 @@ Stock facebook = StockHelper.getStock("FB");
 
 The library currently supports the following methods: 
 
-    getPrice();
-    getVolume(); 
-    getPe(); 
-    getEps(); 
-    getWeek52high(); 
-    getWeek52low(); 
-    getDaylow(); 
-    getDayhigh(); 
-    getMovingav50day(); 
-    getMarketcap();
+```java
+getPrice();
+getVolume(); 
+getPe(); 
+getEps(); 
+getWeek52high(); 
+getWeek52low(); 
+getDaylow(); 
+getDayhigh(); 
+getMovingav50day(); 
+getMarketcap();
+```
     
 ## Testing 
 
